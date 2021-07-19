@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { useLayoutEffect } from 'react';\nexport const useFocus = () => {\n  useLayoutEffect(() => {\n    const focusable = document.querySelectorAll('[tabindex]:not([tabindex=\"-1\"])')[0]; // @ts-ignore\n\n    focusable === null || focusable === void 0 ? void 0 : focusable.focus();\n  }, []);\n};","map":null,"metadata":{},"sourceType":"module"}

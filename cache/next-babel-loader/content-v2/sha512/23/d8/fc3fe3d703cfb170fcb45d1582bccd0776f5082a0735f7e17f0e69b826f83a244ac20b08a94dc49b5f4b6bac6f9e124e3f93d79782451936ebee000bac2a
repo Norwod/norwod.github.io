@@ -1,1 +1,0 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport styled from 'styled-components';\nconst FluidImg = styled.img`\n    width: 100%;\n    height: auto;\n`;\n\nconst Img = (_ref) => {\n  let props = Object.assign({}, _ref);\n  return __jsx(FluidImg, props);\n};\n\nexport default Img;","map":null,"metadata":{},"sourceType":"module"}
